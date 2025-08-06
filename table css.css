@@ -4,17 +4,15 @@ table {
             
         }
         th, td {
-            border: 3px solid #E88504;
+            border: 4px solid #a9650c;
             padding: 10px;
             text-align: center;
-           background-color: #FFB88A;
+           background-color: #ff851a;
            border-radius: 10px; 
            
         }
         th {
-            background-color: #F67B45;
-            border: 3px solid #D24E01;
+            background-color: #Ff5e00;
+            border: 5px solid #b93513;
         }
-       tr:nth-child(even) {
-  background-color: #D6EEEE;
-}
+       
