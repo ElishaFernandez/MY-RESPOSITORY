@@ -1,0 +1,22 @@
+div {
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
+    margin: auto;
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 10px 10px 5px #888888;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(0, 139, 60);
+    text-shadow: 2px 2px 4px #aaa;
+    line-height: 1.6;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+
+}
