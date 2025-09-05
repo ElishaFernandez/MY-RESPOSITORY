@@ -1,0 +1,15 @@
+div.Parent {
+  width:100%;
+  overflow:auto;
+    margin:auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #898AC4;
+   
+
+}
+div {
+  width:33%;  
+  float:left;
+  
+}

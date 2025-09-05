@@ -1,22 +1,49 @@
-div {
-    background-color: lightgreen;
-    font-family: Arial, sans-serif;
-    margin: auto;
-    float: left;
-    width: 45%;
-    padding: 10px;
-    border: 2px solid #000;
-    border-radius: 10px;
-    text-align: center;
-    box-shadow: 10px 10px 5px #888888;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: medium;
-    font-weight: bold;
-    color: rgb(0, 139, 60);
-    text-shadow: 2px 2px 4px #aaa;
-    line-height: 1.6;
-    transition: transform 0.3s, box-shadow 0.3s;
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+    margin: auto;
+    width: 90%;
+    border-radius: 15px; 
+    background-color: #fda92b;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    box-shadow:  0 0 10px #000000;
 
 }
+
+
+.Parent {
+  float: left;  
+  width: 45%;
+  background-color: #FFE100;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: #463f2d 0px 0px 5px;
+}
+
+
+.child {
+  float: left;
+  margin-bottom: 20px;
+  width: 45%;
+    background-color: #ffe680;
+    box-sizing: border-box;
+    border: solid #ffc900 3px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    align-items: center;
+    
+}
+
