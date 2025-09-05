@@ -9,7 +9,27 @@ div.Parent {
 
 }
 div {
-  width:33%;  
+  width:31%;  
   float:left;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #C4C4E6;
+    border-radius: 15px;
+    box-shadow:  0 0 10px #000000;
+    color: #000000;
+    text-shadow: 1px 1px 2px #ffffff;
+    display: inline-block;
+    margin: 10px;
+
   
+}
+ul li {
+    list-style-type:none;
+    position: relative;
+    padding-left: 1.5em; 
+}
+ul li::before {
+    content: "➤"; 
+    position: absolute; 
+    margin-left: -1.5em;
 }
