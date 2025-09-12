@@ -1,0 +1,74 @@
+.header {
+    background-color: powderblue;
+    box-shadow:1px 10px 10px 5px red;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;  
+    margin: 20px;
+    width: 92%;
+    float: left;
+    margin bottom: 20px;
+
+
+
+}
+.heading{
+    text-align: center;
+    text-size-adjust: ;
+}
+.article{
+    background-color: white;
+    box-shadow:1px 10px 10px 5px yellow;
+    margin: 20px;
+    width: 80%;
+    height: 100%;
+    margin-left: 7%;
+    float: left;
+    border-radius: 15px;
+}
+.sub-title1{
+    float: left;
+    width: 20%;
+    background-color: powderblue;
+    box-shadow:1px 5px 5px 5px blue;
+    border-radius: 30px;
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+     display: flex;
+    margin-left: 7%;
+    
+
+}
+.sub-title2 {
+    display: flex;
+    margin-left: 7%;
+    float: left;
+    width: 20%;
+    background-color: powderblue;
+    box-shadow:1px 5px 5px 5px blue;
+    border-radius: 30px;
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    margin-left: 8%;
+}
+.sub-title3 {
+    display: flex;
+    margin: 1px;
+    float: left;
+    width: 20%;
+    background-color: powderblue;
+    box-shadow:1px 5px 5px 5px blue;
+    border-radius: 30px;
+    margin: 5px;
+    height: 50px;
+    text-align: center;
+    margin-left: 7%;
+}
+.box {
+    border: 3px solid rgb(113, 122, 247) ;
+    box-shadow: 1px black;
+}
+
+
