@@ -1,0 +1,11 @@
+.padding {
+    border: 2px solid pink;
+  
+
+}
+.paddingleft{
+    padding-left: 10px;
+    width: 100%;
+    float: left;
+    
+}
