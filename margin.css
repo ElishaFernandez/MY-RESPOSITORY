@@ -1,8 +1,9 @@
 .margin {
  border: 2px solid black;
+ margin-bottom: 100px;
  margin: auto;
-  padding: 20px;
-  width: 100%;
+ padding: 20px;
+  width: 1000px;
   float: left;
 
  
@@ -13,14 +14,7 @@
     margin-left: 5px;
     padding: 5px;
     background: #fff;
-    width: 40px;
+    width: 45px;
     border: 1px solid #aaa;
-}
-
-.sidebox {
-    margin-left: 5px;
-    padding: 8px;
-    border: 1px solid #aaa;
-    background: #fff;
-    width: 40px;
+    float: left;
 }
