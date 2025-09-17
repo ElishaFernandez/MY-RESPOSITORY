@@ -1,0 +1,26 @@
+.margin {
+ border: 2px solid black;
+ margin: auto;
+  padding: 20px;
+  width: 100%;
+  float: left;
+
+ 
+
+}
+
+.marginleft {
+    margin-left: 5px;
+    padding: 5px;
+    background: #fff;
+    width: 40px;
+    border: 1px solid #aaa;
+}
+
+.sidebox {
+    margin-left: 5px;
+    padding: 8px;
+    border: 1px solid #aaa;
+    background: #fff;
+    width: 40px;
+}
