@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #DB6B97;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #C1CFA1;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #A5B68D;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Style the footer */
+footer {
+  background-color: #DB6B97;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+nav li a {
+  display: block;
+  color: black; 
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link and background color on hover */
+
+ul li a:hover:not(.active) {
+  background-color: #F6F8D5;
+}
+
+ul li a.active {
+  background-color: #6E8E59;
+  color: white;
+}
+
+section {
+  overflow: auto;
+}
