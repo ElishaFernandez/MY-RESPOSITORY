@@ -8,11 +8,13 @@ body {
 
 /* Style the header */
 header {
-  background-color: #DB6B97;
+  background-color: #F4F8D3;
   padding: 30px;
   text-align: center;
   font-size: 35px;
-  color: white;
+  color: black;
+  border: 2px solid #B13BFF;
+   border-radius: 3px;
 }
 
 /* Create two columns/boxes that floats next to each other */
@@ -20,7 +22,8 @@ nav {
   float: left;
   width: 20%;
   height: 300px; /* only for demonstration, should be removed */
-  background: #C1CFA1;
+  background: #c993ff;
+  border: 2px solid #B13BFF;
 }
 
 /* Style the list inside the menu */
@@ -35,16 +38,19 @@ article {
   float: left;
   padding: 20px;
   width: 80%;
-  background-color: #A5B68D;
+  background-color: #EBD3F8;
   height: 300px; /* only for demonstration, should be removed */
+  border: 2px solid #B13BFF;
 }
 
 /* Style the footer */
 footer {
-  background-color: #DB6B97;
+  background-color: #F4F8D3;
   padding: 10px;
   text-align: center;
-  color: white;
+  color: black;
+  border: 2px solid #B13BFF;
+   border-radius: 3px;
 }
 
 @media (max-width: 600px) {
@@ -64,11 +70,11 @@ nav li a {
 /* Change the link and background color on hover */
 
 ul li a:hover:not(.active) {
-  background-color: #F6F8D5;
+  background-color: #B13BFF;
 }
 
 ul li a.active {
-  background-color: #6E8E59;
+  background-color: #9162ff;
   color: white;
 }
 

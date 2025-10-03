@@ -26,26 +26,7 @@ body {
     border: #B13BFF;
 
 }
-a:link {
-    color:blue;
-    background-color: transparent;
-    text-decoration: none;
-}
-a:visited {
-    color: #E26EE5;
-    background-color: transparent;
-    text-decoration :none;
-}
-a:hover {
-    color:#FFCC00 ;
-    background-color: rgb(108, 3, 3);
-    text-decoration: none;
-}
-a:active {
-    color: #FFCC00;
-    background-color: transparent;
-    text-decoration: none;
-}
+
 div {
     font-family: tohama;
     font-size: 20px;
@@ -58,7 +39,7 @@ div {
 
 }
 .Parent {
-    width: 40s%;
+    width: 40%;
     margin: auto;
     background-color: #c993ff;
     float: left;
@@ -71,7 +52,7 @@ div {
     color: black;
 }
 .Parent2 {
-    width: 40s%;
+    width: 40%;
     margin: auto;
     background-color: #c993ff;
     float: left;
