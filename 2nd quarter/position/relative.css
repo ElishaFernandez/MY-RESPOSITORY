@@ -1,0 +1,126 @@
+#container {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: static;
+
+}
+#stickyheader {
+    height: 30px;
+    width: 100%;
+    background-color: lightblue;
+    position: sticky;
+    top: 50px;
+    left: 0px;
+}
+#content {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    bottom: 100px;
+}
+#container2 {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: static;
+
+}
+#content2 {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#container3 {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: static;
+
+}
+#content3 {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#container4 {
+    border: 2px solid violet;
+    height: 150px;
+    width: 150px;
+    position: relative;
+
+}
+#content4 {
+    border: 2px solid pink;
+    height: 50px;
+    width: 50px;
+    position: absoulute;
+    top: 20px;
+    left: 20px;
+}
+#container5 {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: static;
+
+}
+#content5 {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+#footer
+{
+    margin-top: 0px;
+    border: 2px solid green;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: green;text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#header {
+    margin-bottom: 0px;
+    border: 2px solid green;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: green;text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+}
+#ads {
+    border: 2px solid rgb(243, 218, 171);
+    height: 150px;
+    width: 100px;
+    position: fixed;
+    right: 0px;
+    top: 50%;
+    background-color: orange;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    translate: -50%, -50%;
+}
