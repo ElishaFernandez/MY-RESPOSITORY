@@ -8,7 +8,7 @@
 #stickyheader {
     height: 30px;
     width: 100%;
-    background-color: lightblue;
+    background-color: #FDAAAA;
     position: sticky;
     top: 50px;
     left: 0px;
@@ -64,6 +64,21 @@
     height: 50px;
     width: 50px;
     position: absoulute;
+    top: 20px;
+    left: 20px;
+}
+#container5 {
+    border: 2px solid red;
+    height: 150px;
+    width: 150px;
+    position: static;
+
+}
+#content5 {
+    border: 2px solid blue;
+    height: 50px;
+    width: 50px;
+    position: relative;
     top: 20px;
     left: 20px;
 }

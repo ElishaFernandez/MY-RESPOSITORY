@@ -24,6 +24,7 @@ nav {
   height: 300px; /* only for demonstration, should be removed */
   background: #c993ff;
   border: 2px solid #B13BFF;
+
 }
 
 /* Style the list inside the menu */
@@ -38,9 +39,11 @@ article {
   float: left;
   padding: 20px;
   width: 80%;
-  background-color: #EBD3F8;
   height: 300px; /* only for demonstration, should be removed */
   border: 2px solid #B13BFF;
+  margin-top: -20px; /* umangat yung article lang */
+
+
 }
 
 /* Style the footer */
@@ -80,4 +83,52 @@ ul li a.active {
 
 section {
   overflow: auto;
+}
+/* Basic nav style */
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #c993ff;
+}
+
+nav ul li {
+  position: relative;
+}
+
+ ul li a {
+  dislay: block;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  font-family: Tahoma, sans-serif;
+}
+ ul li a:hover {
+  background-color: #9B3BE0;
+  transition: 0.3s;
+}
+
+/* Dropdown hidden by default */
+.dropdown-content {
+  display: none;
+  position: relative;  /* important: makes dropdown appear below, not floating */
+  background-color: #EBD3F8;
+  margin-left: 10px;   /* indent the dropdown items a bit */
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.dropdown-content li a {
+  color: #333;
+  padding: 10px 16px;
+  display: block;
+}
+
+.dropdown-content li a:hover {
+  background-color: #D9B8FF;
+}
+
+/* Show dropdown when hovered */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
