@@ -39,7 +39,7 @@ article {
   float: left;
   padding: 20px;
   width: 80%;
-  height: auto; /* only for demonstration, should be removed */
+  height:100%; /* only for demonstration, should be removed */
   
   
 

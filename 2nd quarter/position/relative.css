@@ -3,24 +3,19 @@
     height: 150px;
     width: 150px;
     position: static;
+   
 
 }
-#stickyheader {
-    height: 30px;
-    width: 100%;
-    background-color: #FDAAAA;
-    position: sticky;
-    top: 50px;
-    left: 0px;
-}
+
 #content {
     border: 2px solid blue;
     height: 50px;
     width: 50px;
     position: relative;
-    top: 10px;
-    left: 100px;
-    bottom: 100px;
+    left:30px;
+    top: 30px;
+    z-index: -1;
+    
 }
 #container2 {
     border: 2px solid red;
@@ -34,8 +29,9 @@
     height: 50px;
     width: 50px;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 96px;
+    left: 0px;
+     z-index: -1;
 }
 #container3 {
     border: 2px solid red;
@@ -50,22 +46,24 @@
     width: 50px;
     position: relative;
     top: 20px;
-    left: 20px;
+    left: 96px;
+     z-index: -1;
 }
 #container4 {
     border: 2px solid violet;
     height: 150px;
     width: 150px;
-    position: relative;
+    position: static;
 
 }
 #content4 {
     border: 2px solid pink;
     height: 50px;
     width: 50px;
-    position: absoulute;
-    top: 20px;
-    left: 20px;
+    position: relative;
+    top: 50px;
+    left: 80px;
+     z-index: -1;
 }
 #container5 {
     border: 2px solid red;
@@ -74,28 +72,15 @@
     position: static;
 
 }
-#content5 {
-    border: 2px solid blue;
-    height: 50px;
-    width: 50px;
-    position: relative;
-    top: 20px;
-    left: 20px;
-}
-#container5 {
-    border: 2px solid red;
-    height: 150px;
-    width: 150px;
-    position: static;
 
-}
 #content5 {
     border: 2px solid blue;
     height: 50px;
     width: 50px;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 45px;
+    left: 45px;
+     z-index: -1;
 }
 #container6 {
     border: 2px solid red;
@@ -109,48 +94,64 @@
     height: 50px;
     width: 50px;
     position: relative;
-    top: 20px;
-    left: 20px;
+    top: 40px;
+    left: 70px;
+     z-index: -1;
 }
 #footer
 {
     margin-top: 0px;
-    border: 2px solid green;
+    border: 2px solid blue;
     height: 40px;
     width: 100%;
     position: fixed;
     left: 0px;
     bottom: 0px;
-    background-color: green;text-align: center;
-    color: white;
+    background-color: lightblue;text-align: center;
+    color: black;
     font-weight: bold;
     font-size: 20px;
 
 }
 #header {
     margin-bottom: 0px;
-    border: 2px solid green;
+    border: 2px solid blue;
     height: 40px;
     width: 100%;
     position: fixed;
     left: 0px;
     top: 0px;
-    background-color: green;text-align: center;
-    color: white;
+    background-color: lightblue;text-align: center;
+    color: black;
     font-weight: bold;
     font-size: 10px;
+    
 }
 #ads {
-    border: 2px solid rgb(243, 218, 171);
+    border: 2px solid #FF2DD1;
     height: 150px;
     width: 100px;
     position: fixed;
     right: 0px;
     top: 50%;
-    background-color: orange;
+    background-color: #6F00FF;
     text-align: center;
     color: white;
     font-weight: bold;
     font-size: 20px;
-    translate: -50%, -50%;
+    transform: translate(-100%, 0%);
+
+}
+#stickyheader {
+    height: 30px;
+    width: 100%;
+    background-color: #FDAAAA;
+    position: sticky;
+    top: 50px;
+    left: 0px;
+    border: 2px solid red;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
 }
