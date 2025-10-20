@@ -1,0 +1,49 @@
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; 
+    margin: auto;
+    width: 90%;
+    border-radius: 15px; 
+    background-color: #fda92b;
+    padding: 10px;
+    box-sizing: border-box; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    box-shadow:  0 0 10px #000000;
+
+}
+
+
+.Parent {
+  float: left;  
+  width: 45%;
+  background-color: #FFE100;
+  box-sizing: border-box;
+  border-radius: 15px;
+  box-shadow: #463f2d 0px 0px 5px;
+}
+
+
+.child {
+  float: left;
+  margin-bottom: 20px;
+  width: 45%;
+    background-color: #ffe680;
+    box-sizing: border-box;
+    border: solid #ffc900 3px;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+    height: 200px;
+    align-items: center;
+    
+}
+

@@ -1,0 +1,66 @@
+table {
+    text-align: center;
+    width: 100%;
+    border: 5px ;
+    border: #B13BFF;
+}
+th, td{
+    border: 2px solid #B13BFF;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: #F4F8D3;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+    
+
+}
+body {
+    text-align: center;
+    background-color: #8E7DBE;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    border: #B13BFF;
+
+}
+
+div {
+    font-family: tohama;
+    font-size: 20px;
+    color: black;
+    background-color: #EBD3F8;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #B13BFF;
+    margin: 20px;
+
+}
+.Parent {
+    width: 40%;
+    margin: auto;
+    background-color: #c993ff;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: #463f2d 0px 0px 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.Parent2 {
+    width: 40%;
+    margin: auto;
+    background-color: #c993ff;
+    float: left;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: #463f2d 0px 0px 5px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}

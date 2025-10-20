@@ -1,0 +1,109 @@
+.padding {
+    border: 6px solid pink;
+    float: left;
+    margin: auto;
+    width: 96%;
+    height: 5000%;
+    border-radius: 10px;
+    padding-left: 35PX;
+    
+
+}
+.paddingleft {
+    padding-left: 10px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+
+}
+.right {
+    padding-right: 15px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+
+}
+.top{
+    padding-top: 25px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.bottom {
+    padding-bottom: 35px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.container {
+     border: 6px solid pink;
+    float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 96%;
+    height: 5000%;
+    border-radius: 10px;
+    padding-left: 35PX;
+}
+.topright {
+    padding-right: 10px;
+    padding-top: 10px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.rightbottom {
+    padding-bottom: 15px;
+    padding-right: 15px;
+     width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.bottomleft {
+     padding-bottom: 25px;
+     padding-left: 25px;
+     width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.topleft {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
+.box {
+    border: 6px solid pink;
+    float: left;
+    margin: auto;
+    width: 96%;
+    height: 5000%;
+    border-radius: 10px;
+    padding-left: 35PX;
+    
+}
+.all {
+    padding: 20px 20px 20px 20px;
+     width: 100px;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+    border: 5px solid palegreen;
+}
