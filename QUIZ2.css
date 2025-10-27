@@ -26,44 +26,20 @@
     float: left;
     border-radius: 15px;
 }
-.sub-title1{
-    float: left;
-    width: 20%;
-    background-color: powderblue;
-    box-shadow:1px 5px 5px 5px blue;
-    border-radius: 30px;
-    margin: 5px;
-    height: 50px;
-    text-align: center;
-     display: flex;
-    margin-left: 7%;
-    
-
-}
-.sub-title2 {
-    display: flex;
-    margin-left: 7%;
-    float: left;
-    width: 20%;
-    background-color: powderblue;
-    box-shadow:1px 5px 5px 5px blue;
-    border-radius: 30px;
-    margin: 5px;
-    height: 50px;
-    text-align: center;
-    margin-left: 8%;
-}
+.sub-title1,
+.sub-title2,
 .sub-title3 {
-    display: flex;
-    margin: 1px;
     float: left;
     width: 20%;
     background-color: powderblue;
-    box-shadow:1px 5px 5px 5px blue;
+    box-shadow: 1px 5px 5px 5px blue;
     border-radius: 30px;
     margin: 5px;
     height: 50px;
     text-align: center;
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
     margin-left: 7%;
 }
 .box {
