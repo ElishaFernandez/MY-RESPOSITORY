@@ -8,9 +8,9 @@ div.Parent {
    
 
 }
-div {
+.box {
   width:31%;  
-  float:left;
+    vertical-align: top;
     box-sizing: border-box;
     padding: 10px;
     background-color: #C4C4E6;
@@ -23,13 +23,30 @@ div {
 
   
 }
-ul li {
-    list-style-type:none;
-    position: relative;
-    padding-left: 1.5em; 
+
+.Parent::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-ul li::before {
-    content: "➤"; 
-    position: absolute; 
-    margin-left: -1.5em;
+
+article ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5em;
 }
+article ul li::before {
+  content: "➤";
+  position: absolute;
+  margin-left: -1.5em;
+}
+
+.Parent {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box {
+  flex: 1;
+}
+

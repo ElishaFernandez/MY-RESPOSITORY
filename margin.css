@@ -6,7 +6,7 @@
  border: 1px solid #56021F;
  margin-left: 63px;
  margin-top: 25px;
-
+ box-sizing: content-box;
  
 }
 
@@ -20,6 +20,7 @@
   border: 1px solid #56021F;
   height: 45px;
   width: 55px;
+  box-sizing: content-box;
 }
 .left {
   margin-left: 5px;
