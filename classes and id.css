@@ -49,87 +49,92 @@
     width: 92%;
     height: 800px;
     margin-top: 60px;
-    float: left;
+    
 }
 .sub-content {
     background-color: rgb(192, 242, 179);
     border: 2px solid #5F8B4C;
     float: left;
     margin: 2%;
-    boredr-radius: 25px;
+    border-radius: 25px;
     box-shadow: 10px 10px 5px grey;
     width: 25%;
     height: 150px;
     margin-top: 60px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 41px;
+
 }
 .box1 {
-    color: rgb(4, 122, 47);
+    color: darkgreen;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 15px;
+    text-align: center;
 }
 .box2 {
-    color: brown;
+    color: #3E1E68;
     font-family: 'Courier New', Courier, monospace;
     border-radius: 35px;
 }
 .box3 {
     color: blue;
-    font-family: 'Lucida Console', 'Courier New', monospace;
-    border-radius: 88px;
+    font-family: 'Lucida Handwriting', cursive;
+    border-radius: 80px;
 }
 
 
 #box1 {
-    background-color: yellow;
-    color: navy;
+    background-color: #016B61;
+    color: rgb(238, 238, 247);
     font-family: 'Arial', sans-serif;
     border-radius: 25px;
 }
 #box2 {
-    background-color:red ;
+    background-color:#70B2B2;
     color: white;
     font-family: 'Georgia', serif;
     border-radius: 25px;
 }
 #box3 {
-    background-color: green;
-    color: maroon;
+    background-color: #0046FF;
+    color: white;
     font-family: 'Verdana', sans-serif;
     border-radius: 25px;
 }
 #box4 {
-    background-color: orange;
-    color: olive;
+    background-color:#A8FBD3;
+    color: white;
     font-family: 'Tahoma', sans-serif;
     border-radius: 25px;
 }
 #box5 {
-    background-color: purple;
-    color: deeppink;
+    background-color: #6D94C5;
+    color: white;
     font-family: 'Lucida Console', monospace;
     border-radius: 25px;
 }
 #box6 {
-    background-color: pink;
-    color: dimgray;
+    background-color:#1B56FD;
+    color: white;
     font-family: 'Courier New', monospace;
     border-radius: 25px;
 }
 #box7 {
-    background-color: brown;
-    color: teal;
+    background-color: #155E95;
+    color: white;
     font-family: 'Impact', sans-serif;
     border-radius: 25px;
 }
 #box8 {
-    background-color: black;
-    color: darkslategray;
+    background-color: 161D6F;
+    color: white;
     font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
     border-radius: 25px;
 }
 #box9 {
-    background-color: lightsteelblue;
-    color: steelblue;
+    background-color: #7CF5FF;
+    color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius: 25px;
 }
