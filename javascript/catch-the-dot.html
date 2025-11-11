@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Catch the Dot — Simple JS Game</title>
+<style>
+  body { font-family: Arial, sans-serif; display:flex; flex-direction:column; align-items:center; gap:12px; padding:20px; }
+  #game { width:320px; height:320px; border:3px solid #222; position:relative; background:linear-gradient(180deg,#fff,#f0f8ff); border-radius:8px; overflow:hidden; }
+  .dot { width:40px; height:40px; border-radius:50%; position:absolute; display:flex; align-items:center; justify-content:center; cursor:pointer; user-select:none; box-shadow:0 4px 8px rgba(0,0,0,0.15); }
+  #hud { display:flex; gap:12px; align-items:center; }
+  button { padding:6px 10px; border-radius:6px; border:1px solid #888; background:#fff; cursor:pointer; }
+</style>
+</head>
+<body>
+  <h2>Catch the Dot</h2>
+  <div id="hud">
+    <div>Score: <span id="score">0</span></div>
+    <div>Time left: <span id="time">20</span>s</div>
+    <button id="start">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="game"></div>
+
+<script>
+(() => {
+  const game = document.getElementById('game');
+  const scoreEl = document.getElementById('score');
+  const timeEl = document.getElementById('time');
+  const startBtn = document.getElementById('start');
+  const resetBtn = document.getElementById('reset');
+
+  let score = 0;
+  let timeLeft = 20; // seconds
+  let timerInterval = null;
+  let moveInterval = null;
+  let dot = null;
+
+  function randomPos() {
+    const gw = game.clientWidth;
+    const gh = game.clientHeight;
+    const dw = 40, dh = 40;
+    const x = Math.floor(Math.random() * (gw - dw));
+    const y = Math.floor(Math.random() * (gh - dh));
+    return { x, y };
+  }
+
+  function createDot() {
+    removeDot();
+    dot = document.createElement('div');
+    dot.className = 'dot';
+    dot.textContent = '🙂';
+    const pos = randomPos();
+    dot.style.left = pos.x + 'px';
+    dot.style.top = pos.y + 'px';
+    dot.style.background = `hsl(${Math.floor(Math.random()*360)} 70% 60%)`;
+    dot.addEventListener('click', () => {
+      score += 1;
+      scoreEl.textContent = score;
+      // bonus: move immediately when clicked
+      moveDot();
+    });
+    game.appendChild(dot);
+  }
+
+  function moveDot() {
+    if (!dot) return;
+    const pos = randomPos();
+    dot.style.left = pos.x + 'px';
+    dot.style.top = pos.y + 'px';
+    // small random emoji change
+    const emojis = ['🙂','😎','🤩','😄','😺','👾','🤖'];
+    dot.textContent = emojis[Math.floor(Math.random()*emojis.length)];
+  }
+
+  function removeDot() {
+    if (dot) {
+      dot.remove();
+      dot = null;
+    }
+  }
+
+  function startGame() {
+    resetGame();
+    score = 0;
+    timeLeft = 20;
+    scoreEl.textContent = score;
+    timeEl.textContent = timeLeft;
+    createDot();
+
+    // move every 800ms
+    moveInterval = setInterval(moveDot, 800);
+
+    // countdown timer
+    timerInterval = setInterval(() => {
+      timeLeft -= 1;
+      timeEl.textContent = timeLeft;
+      if (timeLeft <= 0) endGame();
+    }, 1000);
+
+    startBtn.disabled = true;
+  }
+
+  function endGame() {
+    clearInterval(timerInterval);
+    clearInterval(moveInterval);
+    timerInterval = moveInterval = null;
+    removeDot();
+    alert('Game over! Score: ' + score);
+    startBtn.disabled = false;
+  }
+
+  function resetGame() {
+    clearInterval(timerInterval);
+    clearInterval(moveInterval);
+    timerInterval = moveInterval = null;
+    score = 0;
+    timeLeft = 20;
+    scoreEl.textContent = score;
+    timeEl.textContent = timeLeft;
+    removeDot();
+    startBtn.disabled = false;
+  }
+
+  startBtn.addEventListener('click', startGame);
+  resetBtn.addEventListener('click', resetGame);
+
+  // responsive: if window resizes, ensure dot stays inside
+  window.addEventListener('resize', () => {
+    if (dot) moveDot();
+  });
+
+})();
+</script>
+</body>
+</html>
