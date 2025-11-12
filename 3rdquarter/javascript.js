@@ -1,2 +1,2 @@
 document.getElementById("jsexternal").innerHTML = "Hello World JavaScript in the Head";
-        window.alaert("Welcome to JavaScript");
+window.alert("Welcome to JavaScript!");
