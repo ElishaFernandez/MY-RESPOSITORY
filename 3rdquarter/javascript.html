@@ -3,28 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First JavaScript</title>
-  <script src="javascript.js" ></script>
-
+  <title>MY FIRST JAVASCRIPT</title>
+  <script src="javascript.js"></script>
   <script>
-      document.getElementById("jshead").innerHTML = "Hello from JavaScript in the Head!";
-      window.alert("Welcome to JavaScript!");
-  </script>
+  function changep2() {
+    document.getElementById("p2").innerHTML = "Paragraph 2 changed by JavaScript in the HEAD of HTML";
+  }
+  
+function alert2 () {
+  alert("This is alert 2 from javascript in the body of HTML");
+}
+function console2 () {
+  console.log("This is console log 2 from javascript in the body of HTML");
+}
+</script>
 </head>
 <body>
+<h1>my first JAVASCRIPT web pages</h1>
+<h4>This part is controlled by a javascript in the body of HTML</h4>
+<p id="p1" >This paragraph will be change by the button below</p>
+<button type="button" onclick="document.getElementById('p1').innerHTML = 'GUSTO KO YUMAMAN AT MAG TAYO NG SHELTER FOR ANIMALS AND HOMELESS PEOPLE!'">Click Me To Change The Paragraph Above!</button>
+<hr>
+<p id="p2" >This paragraph will be change by the button below</p>
+<button type="button" onclick=changep2()>Click Me To Change The Paragraph Above!</button>
+<hr>
+<p id="p3" >This paragraph will be change by the button below</p>
+<button type="button" onclick=changep3()>Click Me To Change The Paragraph Above!</button>
+<hr>
+<h4>This part will use the Window alert output of a JavaScript</h4>
+<button type="button" onclick="alert1()">Click me for an Alert 1</button>
+<button type="button" onclick="alert2()">Click me for an Alert 2</button>
+<button type="button" onclick="alert3()">Click me for an Alert 3</button>
+<hr>
+<h4>This part will use the console output of a JavaScript</h4>
+<button type="button" onclick="console1()">Click me for an console 1</button>
+<button type="button" onclick="console2()">Click me for an console 2</button>
+<button type="button" onclick="console3()">Click me for an console 3</button>
+<hr>
+<h4>This part will use Document.write of a javascript</h4>
+<button type="button" onclick="docWrite1()">Click me for Document.write 1
+</button>
 
-  <h1>My First JavaScript</h1>
-  <h3>The next element is a result of a JavaScript located in the head</h3>
-  <p id="jshead"></p>
-
-  <h3>The next element is a result of a JavaScript located in the body</h3>
-  <p id="jsbody"></p>
-
-  <script>
-    document.getElementById("jsbody").innerHTML = "Hello from JavaScript in the Body!";
-    window.alert("Welcome to JavaScript!");
-  </script>
-
+<script>
+  function changep1() {
+    document.getElementById("p1").innerHTML = "Hello JavaScript!";
+  }
+  
+function alert1() {
+  alert("This is alert 1 from javascript in the body of HTML");
+}
+function console1() {
+  console.log("This is console log 2 from javascript in the body of HTML");
+}
+function docWrite1() {
+  document.write("<h3>This is Written by document.Write() method!</h3>");
+}
+</script>
 </body>
 </html>
-    
