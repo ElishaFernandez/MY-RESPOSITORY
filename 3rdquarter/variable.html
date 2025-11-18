@@ -2,14 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widt, initial-scale=1.0">
+    <meta name="viewport" content="width, initial-scale=1.0">
     <title>Variable in Java Script</title>
 </head>
 <body>
     <h1>
         Variable in Java Script
     </h1>
-    <button type="button" onclick="private_variables()">This will show the private variables</button>
+    <button type="button" onclick="private_variable()">
+        This will show the private variables
+    </button>
     <script>
         let x = 50;
         let y = 4;
@@ -22,9 +24,9 @@
         console.log(let_This);
         var studentName = "John Doe";
         console.log(studentName);
-        function private_variables() {
+        function private_variable() {
            let x = "This is a private variable";
-           console.log(_x);
+           console.log(x);
         }
         var $ = "This is also a valid variable name";
         var $$ = "This is also a valid variable name too";
@@ -45,7 +47,7 @@
         console.log(autoVar);
         let num1 = 10;
         let num2 = 20;
-        let num1 = 30;
+        let num3 = 30;
         console.log(num1 + num2 + num3); // output "102030"
         let text1 = "Hello";
         let text2 = "World";
@@ -53,7 +55,19 @@
         console.log(text1 + " " + text2 + text3); // output "Hello World!"
         let a = "a" , b = "b" , c = "c";
         console.log(a + b + c); // output "abc"
-        let a
+        let addend1 = 5, addend2 = 10, addend3 = 15;
+        let sum = addend1 + addend2 + addend3;
+        console.log("The sum is: " + sum); // output "The sum is: 30"
+        let minuend = 20, subtrahend = 5;
+        let difference = minuend - subtrahend;
+        console.log("The difference is: " + difference); // output "The difference is: 15"
+        let multiplicand = 4, multiplier = 5;
+        let product = multiplicand * multiplier;
+        console.log("The product is: " + product); // output "The product is: 20"
+        let dividend = 20, divisor = 4;
+
+
+
 
 
 
