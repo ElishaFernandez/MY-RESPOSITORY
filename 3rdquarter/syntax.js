@@ -24,7 +24,7 @@ document.getElementById("c").innerHTML = cc;
 function changeValue() {
     aa = 100;
     bb = 200;
-  //  cc = 300; // This will cause an error because cc is a constant
+    //cc = 300; bwal dw kc constant yan hndi yn mababago 
     document.getElementById("a").innerHTML = aa;
     document.getElementById("b").innerHTML = bb;
     document.getElementById("c").innerHTML = cc;
