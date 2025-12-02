@@ -1,6 +1,8 @@
 const num = document.getElementById('numInput');
 const numInputBtn = document.getElementById('count');
 const resultDiv = document.getElementById('countResult');
+const clearBtn = document.getElementById('clearCount');
+
 
 numInputBtn.addEventListener('click', () => {
     const n = Number(num.value);
@@ -17,4 +19,13 @@ numInputBtn.addEventListener('click', () => {
         console.log(i);
     }
     // resultDiv.innerHTML = output.trim();
+    resultDiv.textContent = output.trim();
+    resultDiv.style.color = 'black';
+    
+});
+ clearBtn.addEventListener('click', () => {
+    num.value = ""; 
+    resultDiv.textContent = "";
+    resultDiv.removeAttribute('style');
+
 });
