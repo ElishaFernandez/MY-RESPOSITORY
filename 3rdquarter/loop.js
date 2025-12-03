@@ -1,6 +1,7 @@
 const num = document.getElementById('numInput');
 const numInputBtn = document.getElementById('count');
 const resultDiv = document.getElementById('countResult');
+const resultDiv2 = document.getElementById('countResult2');
 
 numInputBtn.addEventListener('click', () => {
     const n = Number(num.value);

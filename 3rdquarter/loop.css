@@ -18,6 +18,6 @@ label, button {
 .result { 
     margin-top: 0.5rem;
     font-weight: bold; 
-} .result {
+
     white-space: pre-line;
 }
