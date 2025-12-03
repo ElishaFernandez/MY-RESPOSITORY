@@ -18,4 +18,13 @@ numInputBtn.addEventListener('click', () => {
         console.log(i);
     }
     // resultDiv.innerHTML = output.trim();
+    resultDiv.textContent = output.trim();
+    resultDiv.style.color = 'black';
+    
+});
+ clearBtn.addEventListener('click', () => {
+    num.value = ""; 
+    resultDiv.textContent = "";
+    resultDiv.removeAttribute('style');
+
 });
