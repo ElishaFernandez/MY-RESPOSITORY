@@ -1,38 +1,32 @@
-let output = document.getElementById('output');
+let output = "";
 
-function show(text){
-   output.innerHTML += text + "<br>";
-}
-
-// IF–ELSE STATEMENT
-let age = 16;
-
-if (age <= 18) {
-    console.log("You are a minor.");
+// IF-ELSE STATEMENT
+let age = 20;
+if (age >= 18) {
+    output += "<p>You are allowed to vote!</p>";
 } else {
-    console.log("You are an adult.");
+    output += "<p>You are too young to vote.</p>";
 }
 
-
-// FOR LOOP
+// LOOP 
+output += "<h3>Loop Numbers:</h3>";
 for (let i = 1; i <= 5; i++) {
-    console.log("Number: " + i);
+    output += "<p>Number: " + i + "</p>";
 }
 
+// SWITCH
+let day = 4;
+output += "<h3>Day of the Week:</h3>";
 
-// SWITCH STATEMENT
-let grade = "B";
-
-switch (grade) {
-    case "A":
-        console.log("Excellent");
-        break;
-    case "B":
-        console.log("Good");
-        break;
-    case "C":
-        console.log("Fair");
-        break;
-    default:
-        console.log("Needs Improvement");
+switch (day) {
+    case 1: output += "<p>Monday</p>"; break;
+    case 2: output += "<p>Tuesday</p>"; break;
+    case 3: output += "<p>Wednesday</p>"; break;
+    case 4: output += "<p>Thursday</p>"; break;
+    case 5: output += "<p>Friday</p>"; break;
+    case 6: output += "<p>Saturday</p>"; break;
+    case 7: output += "<p>Sunday</p>"; break;
+    default: output += "<p>Invalid day!</p>";
 }
+
+document.getElementById("output").innerHTML = output;
