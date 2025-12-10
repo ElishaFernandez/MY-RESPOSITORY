@@ -1,0 +1,16 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: pink;
+    
+    
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String</title>
+</head>
+<body>
+    <p id="insert"></p>
+    <script>
+        let str = "Hello, World!";
+        console.log(str);
+        document.getElementById("insert").innerText = str;
+         
+
+        // String length
+        console.log("Length of String: " + str.length);
+
+        // Convert to uppercase
+        let upperStr = str.toUpperCase();
+        console.log("Uppercase String: " + upperStr);
+
+        // Convert to lowercase
+        let lowerStr = str.toLowerCase();
+        console.log("Lowercase String: " + lowerStr);
+
+        // Substring
+        let subStr = str.substring(0, 5);
+        console.log("Substring (0-5): " + subStr);
+
+        // Replace
+        let replacedStr = str.replace("World", "JavaScript");
+        console.log("Replaced String: " + replacedStr);
+
+        // Split
+        let splitStr = str.split(", ");
+        console.log("Split String: ", splitStr);
+    </script>
+</body>
+</html>
