@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h2>My Calculator</h2>
+    <hr>
+    <h4>ADDITION</h4>
+    <p id="add"></p>
+    <div>
+        <label for="add"></label>
+        <input type="text" id="add" placeholder="Enter first number">
+        <input type="text" id="add2" placeholder="Enter second number"><br>
+        <button>Enter</button>
+    </div>
+      <hr>
+    <h4>SUBTRACTION</h4>
+    <p id="sub"></p>
+    <div>
+        <label for="subt"></label>
+        <input type="text" id="subt" placeholder="Enter first number">
+        <input type="text" id="subt2" placeholder="Enter second number">
+        <br>
+        <button>Enter</button>
+    </div>
+      <hr>
+    <h4>MULTIPLICATION</h4>
+    <p id="mul"></p>
+    <div>
+        <label for="mult"></label>
+        <input type="text" id="mult" placeholder="Enter first number">
+        <input type="text" id="mult2" placeholder="Enter second number">
+        <br>
+        <button>Enter</button>
+      <hr>
+    <h4>DIVISION</h4>
+    <p id="div"></p>
+    <div>
+        <label for="divi"></label>
+        <input type="text" id="divi" placeholder="Enter first number">
+        <input type="text" id="divi2" placeholder="Enter second number">
+        <br>
+        <button>Enter</button>
+    
+    <script>
+      
+     let   addition = (add1, add2) => add1 + add2;
+      let  subtraction =(sub1, sub2) => sub1 - sub2;
+      let  multiplication =(mul1, mul2) => mul1 * mul2;
+       let division =(div1, div2) => div1 / div2;
+
+           
+       
+        let addp = document.getElementById("add");
+         addp.textContent = addition (100,200);
+      
+        let subp = document.getElementById("sub");
+         subp.textContent = subtraction (500,200);
+
+        let mulp = document.getElementById("mul");
+         mulp.textContent = multiplication (10,20);
+
+        let divp = document.getElementById("div");
+         divp.textContent = division (1000,25);
+
+       
+
+      
+    </script>
+</body>
+</html>
